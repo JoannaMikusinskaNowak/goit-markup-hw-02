@@ -1,2 +1,2 @@
-# goit-markup-hw-02
- Second homework with use CSS
+# goit-markup-hw-01
+ first homework with using HTML
