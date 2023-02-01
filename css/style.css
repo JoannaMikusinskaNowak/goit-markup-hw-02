@@ -15,10 +15,8 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
   font-family: var(--main-font);
   color: var(--main-text-color);
-  line-height: 1.17;
 }
 
 ul {
