@@ -7,13 +7,15 @@
   --background-footer-color: #2f303a;
   --buttons-port-color:#f5f4fa;
   --footer-text-color: rgba(255,255,255,0.6);
+  --contener-color: #EEEEEE;
+  --main-font: Roboto, sans-serif;
 
 
 }
 
 body {
   font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   color: var(--main-text-color);
   line-height: 1.17;
 }
@@ -134,7 +136,7 @@ ul {
 }
 
 footer {
-  background-color: var(--background-footer-color)
+  background-color: var(--background-footer-color);
   color: var(--secondary-text-color);
 }
 
@@ -188,6 +190,12 @@ footer {
   cursor: pointer;
 }
 
+.section3-area{
+  background-color: var(--secondary-text-color);
+  border: 1px solid var(--contener-color);
+}
+
+
 .section3-title {
   font-size: 18px;
   font-weight: 700;
@@ -202,3 +210,4 @@ footer {
   color: var(--ouwer-text-color);
   line-height: 1.9;
 }
+
