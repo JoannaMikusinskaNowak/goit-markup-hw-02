@@ -47,8 +47,16 @@ ul {
   text-align: left;
   text-decoration: none;
   color: var(--main-text-color);
+
+
 }
+
+.current:{
+  color:var(--acent-color);
+}
+
 .header:hover,
+.header.target,
 .header:focus {
   color: var(--acent-color);
 
