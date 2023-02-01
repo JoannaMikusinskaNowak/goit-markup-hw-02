@@ -9,7 +9,7 @@
   --footer-text-color: rgba(255,255,255,0.6);
   --contener-color: #EEEEEE;
   --line-color: #ECECEC;
-  --main-font: Roboto, sans-serif;
+  --main-font: "Roboto", sans-serif;
 
 
 }
@@ -24,7 +24,7 @@ ul {
 }
 
 .logo-black {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   color: var(--logo-color-text);
   font-weight: 700;
   font-family: Oleo Script;
@@ -46,6 +46,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: left;
   text-decoration: none;
+  color: var(--main-text-color);
 }
 .header:hover,
 .header:focus {
