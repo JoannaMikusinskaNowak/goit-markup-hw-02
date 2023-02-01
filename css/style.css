@@ -8,6 +8,7 @@
   --buttons-port-color:#f5f4fa;
   --footer-text-color: rgba(255,255,255,0.6);
   --contener-color: #EEEEEE;
+  --line-color: #ECECEC;
   --main-font: Roboto, sans-serif;
 
 
@@ -51,6 +52,11 @@ ul {
 .header:hover,
 .header:focus {
   color: var(--acent-color);
+
+}
+
+.header-border{
+  border: 1px solid var(--line-color);
 }
 
 .navi {
