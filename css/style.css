@@ -1,16 +1,15 @@
 :root {
   --main-text-color: #212121;
-  --secondary-text-color:#ffffff;
-  --ouwer-text-color:  #757575;
-  --acent-color:#2196f3;
-  --logo-color-text:#000000;
+  --secondary-text-color: #ffffff;
+  --ouwer-text-color: #757575;
+  --acent-color: #2196f3;
+  --logo-color-text: #000000;
   --background-footer-color: #2f303a;
-  --buttons-port-color:#f5f4fa;
-  --footer-text-color: rgba(255,255,255,0.6);
-  --contener-color: #EEEEEE;
-  --line-color: #ECECEC;
+  --buttons-port-color: #f5f4fa;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --contener-color: #eeeeee;
+  --line-color: #ececec;
   --main-font: "Roboto", sans-serif;
-
 }
 
 body {
@@ -45,21 +44,18 @@ ul {
   text-align: left;
   text-decoration: none;
   color: var(--main-text-color);
-
-
 }
 
-.current:{
-  color:var(--acent-color);
+.current: {
+  color: var(--acent-color);
 }
 
 .header:hover,
 .header:focus {
   color: var(--acent-color);
-
 }
 
-.header-border{
+.header-border {
   border: 1px solid var(--line-color);
 }
 
@@ -84,7 +80,6 @@ ul {
   background-color: var(--background-footer-color);
   width: 1600px;
   height: 600px;
-
 }
 
 .button-order {
@@ -98,8 +93,8 @@ ul {
   cursor: pointer;
   font-family: var(--main-font);
   font-weight: 700;
-font-size: 16px;
-line-height: 1.875;
+  font-size: 16px;
+  line-height: 1.875;
 }
 
 .button-order:hover,
@@ -109,17 +104,16 @@ line-height: 1.875;
   cursor: pointer;
 }
 
-.visually-hidden{
-  position:absolute;
-  width:1px;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
   height: 1px;
-  margin:-1px;
-  border:0;
-  padding:0;
-  white-space:nowrap;
-  clip-path:insert(100%);
-  overflow:hidden;
-
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: insert(100%);
+  overflow: hidden;
 }
 
 .list-title {
@@ -158,19 +152,15 @@ line-height: 1.875;
   color: var(--ouwer-text-color);
 }
 
-
-.section-shadow{
-box-shadow: 0px 2px 1px 0px #00000033;
-box-shadow: 0px 1px 1px 0px #00000024;
-box-shadow: 0px 1px 3px 0px #0000001F;
-
+.section-shadow {
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001f;
 }
-
 
 footer {
   background-color: var(--background-footer-color);
   color: var(--secondary-text-color);
-  
 }
 
 .logo-white {
@@ -190,7 +180,7 @@ footer {
   color: var(--secondary-text-color);
   text-decoration: none;
   line-height: 1.7;
-  font-style:normal;
+  font-style: normal;
 }
 
 .contact-second {
@@ -200,8 +190,7 @@ footer {
   text-align: left;
   color: var(--footer-text-color);
   line-height: 1.7;
-  font-style:normal;
-
+  font-style: normal;
 }
 
 .contact-second:hover,
@@ -215,21 +204,18 @@ footer {
   background: var(--buttons-port-color);
   border-radius: 4px;
   line-height: 1.5;
-  cursor: pointer;
 }
 
 .button-navi:hover,
 .button-navi:focus {
   background-color: var(--acent-color);
-  color: var(--secondary-text-color)
-  cursor: pointer;
+  color: var(--secondary-text-color);
 }
 
-.section3-area{
+.section3-area {
   background-color: var(--secondary-text-color);
   border: 1px solid var(--contener-color);
 }
-
 
 .section3-title {
   font-size: 18px;
@@ -245,4 +231,3 @@ footer {
   color: var(--ouwer-text-color);
   line-height: 1.9;
 }
-
