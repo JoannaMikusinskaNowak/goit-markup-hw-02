@@ -26,7 +26,6 @@ ul {
   font-family: "Raleway", sans-serif;
   color: var(--logo-color-text);
   font-weight: 700;
-  font-family: Oleo Script;
   font-size: 26px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -175,7 +174,6 @@ footer {
   font-family: "Raleway";
   color: var(--secondary-text-color);
   font-weight: 700;
-  font-family: Oleo Script;
   font-size: 26px;
   letter-spacing: 0.03em;
   text-align: left;
