@@ -46,7 +46,7 @@ ul {
   color: var(--main-text-color);
 }
 
-.current: {
+.current {
   color: var(--acent-color);
 }
 
