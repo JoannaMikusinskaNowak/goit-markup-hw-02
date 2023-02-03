@@ -140,6 +140,8 @@ ul {
 }
 
 .teams-position {
+  font-size: 16px;
+  font-weight: 400;
   letter-spacing: 0.03em;
   color: var(--ouwer-text-color);
 }
@@ -167,6 +169,7 @@ footer {
 
 .address {
   font-size: 14px;
+  font-weight: 400;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--secondary-text-color);
@@ -178,6 +181,7 @@ footer {
 .contact-second {
   text-decoration: none;
   font-size: 14px;
+  font-weight: 400;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--footer-text-color);
@@ -222,4 +226,6 @@ footer {
   text-align: left;
   color: var(--ouwer-text-color);
   line-height: 1.9;
+  font-size: 16px;
+  font-weight: 400;
 }
