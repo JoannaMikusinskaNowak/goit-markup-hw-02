@@ -46,12 +46,12 @@ ul {
   color: var(--main-text-color);
 }
 
-.current {
+.header:hover,
+.header:focus {
   color: var(--acent-color);
 }
 
-.header:hover,
-.header:focus {
+.current {
   color: var(--acent-color);
 }
 
@@ -78,8 +78,6 @@ ul {
 
 .section-first {
   background-color: var(--background-footer-color);
-  width: 1600px;
-  height: 600px;
 }
 
 .button-order {
